@@ -1,5 +1,5 @@
-# Musical Spirits: a new way of categorising music
-GA DSI Capstone Project 2020
+# Musical Spirits: A new way of categorising music
+GA | DSI Capstone Project | 2020 | Aaron Breuer-Weil
 
 ---
 
@@ -29,26 +29,29 @@ Is it possible to categorise music in a way that better predicts people’s tast
 
 ### Data Collection:
 
-* Scraping:
+1. Scraping:
   * Selenium-based scraper to collect meta-data from Rateyourmusic.com
-* API:
+2. API:
   * Sound features extracted from Spotify's API
-* Other:
+3. Other:
   * User ratings from PostgreSQL database shared by @MichaelDarr 
 
 ### Modelling:
 
-
+* Ran 10,000 *simulations* across 66 users and 100,000 ratings.
+* 2 sets of KNN classifier models (1 for genre-only, 1 for cluster-only) to predict scores.
+* Varied n-neighbours for KNN between 5 and 50 and predicted scores from 2, 3 and 4 levels (i.e. 0-2.5 & 2.5-5; 0-2 & 2-4 & 4-5 etc.)
+* KNN selected for computational tractability.
 
 ### Results:
 
-With 32 clusters, performance was reliably better than genre at predicting user's album scores.
+With **32** clusters, performance was reliably better than genre at predicting user's album scores.
 
-Training:
+**Training:**
 1. Average 5-fold cross validated training score for **cluster-only** models with KNN classifier: **0.428**
 2. Average 5-fold cross validated training score for **genre-only** models with KNN classifier: **0.405**
 
-Testing:
+**Testing:**
 3. Average testing score for **cluster-only** models with KNN classifier: **0.407**
 4. Average testing score for **genre-only** models with KNN classifier: **0.393**
 
@@ -59,7 +62,6 @@ Testing:
 
 ### Findings:
 
-Though the improvement over genre is modest, the results suggest the new 32 clusters are a legitimate predictor of people's music taste. 
+Though the improvement over genre is modest, the results suggest the new 32 clusters are a legitimate predictor of people's music taste.
 
-### Conclusion:
-
+A subjective analysis of the clusters shows some artists and albums grouped in a genre-like manner - instrumental/classical tend to fall into groups together. But the clustering analysis is able to identify more subtle links between songs - darker, more minor songs go together even if one is rap track and another a metal track.

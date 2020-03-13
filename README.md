@@ -41,7 +41,7 @@ Is it possible to categorise music in a way that better predicts people’s tast
 * Ran 10,000 *simulations* across 66 users and 100,000 ratings.
 * 2 sets of KNN classifier models (1 for genre-only, 1 for cluster-only) to predict scores.
 * Varied n-neighbours for KNN between 5 and 50 and predicted scores from 2, 3 and 4 levels (i.e. 0-2.5 & 2.5-5; 0-2 & 2-4 & 4-5 etc.)
-* KNN selected for computational tractability.
+* KNN for classification and K-Means for clustering selected for computational tractability.
 
 ### Results:
 
@@ -65,3 +65,9 @@ With **32** clusters, performance was reliably better than genre at predicting u
 Though the improvement over genre is modest, the results suggest the new 32 clusters are a legitimate predictor of people's music taste.
 
 A subjective analysis of the clusters shows some artists and albums grouped in a genre-like manner - instrumental/classical tend to fall into groups together. But the clustering analysis is able to identify more subtle links between songs - darker, more minor songs go together even if one is rap track and another a metal track.
+
+### Future Direction:
+
+* Addition of features to clustering and use recursive feature elimination to tune optimal cluster.
+* Run classification per user with additional algorithms to further validate results.
+* Rather than a model per user, deploy LightFM for hybrid recommender systems to gauge quality of cluster vs. genre. Use to form a recommender system with clusters.

@@ -71,3 +71,10 @@ A subjective analysis of the clusters shows some artists and albums grouped in a
 * Addition of features to clustering and use recursive feature elimination to tune optimal cluster.
 * Run classification per user with additional algorithms to further validate results.
 * Rather than a model per user, deploy LightFM for hybrid recommender systems to gauge quality of cluster vs. genre. Use to form a recommender system with clusters.
+
+
+---
+
+### Clusters Overview:
+
+![alt text](Clusters_Words.png)

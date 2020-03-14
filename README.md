@@ -1,6 +1,9 @@
 # Musical Spirits: A new way of categorising music
 GA | DSI Capstone Project | 2020 | Aaron Breuer-Weil
 
+Explore here:
+https://public.tableau.com/profile/aaron.b.w#!/vizhome/Capstone_ClustersV2/SongDashboard?publish=yes
+
 ---
 
 We're in a new era of music consumption.

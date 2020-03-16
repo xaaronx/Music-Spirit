@@ -17,7 +17,7 @@ Might there be a way of grouping songs together by their underlying musical prop
 
 Explore the results here:
 
-https://public.tableau.com/profile/aaron.b.w#!/vizhome/Capstone_ClustersV2/SongDashboard?publish=yes
+https://public.tableau.com/profile/aaron.b.w#!/vizhome/Capstone_ClustersV2/SongDashboard
 
 ---
 

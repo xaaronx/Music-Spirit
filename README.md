@@ -63,16 +63,15 @@ With **32** clusters, performance was reliably better than genre at predicting u
 
 * Average 5-fold cross validated training score for **cluster-only** models with KNN classifier: **0.428**
 * Average 5-fold cross validated training score for **genre-only** models with KNN classifier: **0.405**
+* Cluster-only performed better in **62.7%** of training instances
 
 **Testing:**
 
 * Average testing score for **cluster-only** models with KNN classifier: **0.407**
 * Average testing score for **genre-only** models with KNN classifier: **0.393**
-
-**Both of the above differences are significant (P<0.001).**
-
-* Cluster-only performed better in **62.7%** of training instances
 * Cluster-only performed better in **59.7%** of testing instances
+
+*Both of the above differences are significant (P<0.001).*
 
 ### Findings:
 

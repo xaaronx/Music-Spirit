@@ -23,7 +23,7 @@ https://public.tableau.com/profile/aaron.b.w#!/vizhome/Capstone_ClustersV2/SongD
 
 ### Problem Statement:
 
-Is it possible to categorise music in a way that better predicts people’s taste than just using genre?
+*Is it possible to categorise music in a way that better predicts people’s taste than just using genre?*
 
 ### Aim:
 
@@ -42,11 +42,11 @@ Create new musical groupings that outperform genre and make them interpretable -
 ### Data Collection:
 
 1. Scraping:
-  * Selenium-based scraper to collect meta-data from Rateyourmusic.com
+Selenium-based scraper to collect meta-data from Rateyourmusic.com
 2. API:
-  * Sound features extracted from Spotify's API
+Sound features extracted from Spotify's API
 3. Other:
-  * User ratings from PostgreSQL database shared by @MichaelDarr 
+User ratings from PostgreSQL database shared by @MichaelDarr 
 
 ### Modelling:
 
@@ -60,17 +60,19 @@ Create new musical groupings that outperform genre and make them interpretable -
 With **32** clusters, performance was reliably better than genre at predicting user's album scores.
 
 **Training:**
-1. Average 5-fold cross validated training score for **cluster-only** models with KNN classifier: **0.428**
-2. Average 5-fold cross validated training score for **genre-only** models with KNN classifier: **0.405**
+
+* Average 5-fold cross validated training score for **cluster-only** models with KNN classifier: **0.428**
+* Average 5-fold cross validated training score for **genre-only** models with KNN classifier: **0.405**
 
 **Testing:**
-3. Average testing score for **cluster-only** models with KNN classifier: **0.407**
-4. Average testing score for **genre-only** models with KNN classifier: **0.393**
+
+* Average testing score for **cluster-only** models with KNN classifier: **0.407**
+* Average testing score for **genre-only** models with KNN classifier: **0.393**
 
 **Both of the above differences are significant (P<0.001).**
 
-5. Cluster-only performed better in **62.7%** of training instances
-6. Cluster-only performed better in **59.7%** of testing instances
+* Cluster-only performed better in **62.7%** of training instances
+* Cluster-only performed better in **59.7%** of testing instances
 
 ### Findings:
 

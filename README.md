@@ -7,7 +7,7 @@ We're in a new era of music consumption.
 
 Digital natives have instant access to global culture, musical styles have cross-pollinated and listeners now take recommendations from algorithms. People care less for single genre charts and they no longer want radio DJs to feed them the 'hottest 10 pop songs around'.
 
-This era of change has seen genre lose its ability to effectively categorise people’s musical taste. Consumers and artists are interested in so much more than one narrow, semi-arbitrary musical grouping. 
+This era of change has seen genre lose its ability to effectively categorise people’s musical taste. Consumers and artists are interested in so much more than adhering to one musical 'style'.
 
 Rather than continuing to use genre, might there be a mode of categorisation that better represents people’s new broadened music tastes? With it, would come an effective tool for self exploration. 
 

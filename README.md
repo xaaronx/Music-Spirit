@@ -79,6 +79,10 @@ Though the improvement over genre is modest, the results suggest the new 32 clus
 
 A subjective analysis of the clusters shows some artists and albums grouped in a genre-like manner - instrumental/classical tend to fall into groups together. But the clustering analysis is able to identify more subtle links between songs - darker, more minor songs go together even if one is rap track and another a metal track.
 
+My own subjective description of the clusters (based on the features found in each) matched well with the woman/man-made descriptors found most commonly in each cluster (gathered from rateyourmusic.com). The clustering analysis identifed nuances in sound features that humans have also identified. The final names/descriptions of the clusters are formed with both my interpretation of the features and the common descriptors found in each. See the image at the foot of this document for the descriptors per cluster.
+
+![alt text](Cluster_Feature.png)
+
 ### Future Direction:
 
 * Addition of features to clustering and use recursive feature elimination to tune optimal cluster.
@@ -91,3 +95,38 @@ A subjective analysis of the clusters shows some artists and albums grouped in a
 ### Clusters Overview:
 
 ![alt text](Clusters_Words.png)
+
+## Working Definitions:
+
+0.  Passionate Party
+1.  Anxious Eclectic Energy
+2.  Dark Ethereal
+3.  Wordy Male
+4.  Live Passion
+5.  Dark Instrumental
+6.  Urban Upbeat Aggression
+7.  Aggressive Poetic Passion
+8.  Playful Heaviness
+9.  Sharp Urban Instrumentals
+10. Epic Melancholy
+11. Progressive Daunting Psychadelia
+12. Live Melodic Sharpness
+13. Low Energy Instrumentals
+14. Stagnant Melancholy
+15. Rapid Fantasy
+16. Acoustic Darkness
+17. Brief Playful
+18. Slow Noise
+19. Epic Potent
+20. Poltical Playfulness
+21. Urban Psychadelia
+22. Instrumental Dark Pop
+23. Crazed Melodies
+24. Positive Atmosphere
+25. Positive Urban Introspection
+26. Long Atmospheric Psychadelia
+27. Heavy Warm Energy
+28. Rythmic Pace
+29. Acoustic Passion
+30. Playful Epics
+31. Passionate Sadness

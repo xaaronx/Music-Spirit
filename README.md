@@ -94,7 +94,7 @@ My own subjective description of the clusters (based on the features found in ea
 
 ### Clusters Overview:
 
-![alt text](Clusters_Words.png)
+![alt text](Updated_cluster_language.png)
 
 ## Working Definitions:
 

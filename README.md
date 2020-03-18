@@ -118,7 +118,7 @@ My own subjective description of the clusters (based on the features found in ea
 17. Brief Playful
 18. Slow Noise
 19. Epic Potent
-20. Poltical Playfulness
+20. Political Playfulness
 21. Urban Psychadelia
 22. Instrumental Dark Pop
 23. Crazed Melodies
@@ -126,7 +126,7 @@ My own subjective description of the clusters (based on the features found in ea
 25. Positive Urban Introspection
 26. Long Atmospheric Psychadelia
 27. Heavy Warm Energy
-28. Rythmic Pace
+28. Rhythmic Pace
 29. Acoustic Passion
 30. Playful Epics
 31. Passionate Sadness

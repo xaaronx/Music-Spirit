@@ -5,7 +5,7 @@ GA | DSI Capstone Project | 2020 | Aaron Breuer-Weil
 
 We're in a new era of music consumption.
 
-Digital natives have instant access to global culture, musical styles have cross-pollinated and listeners now take recommendations from algorithms. People care less for single genre charts and they no longer want radio DJs to feed them the 'hottest 10 pop songs around'.
+Digital natives have instant access to global culture, musical styles have cross-pollinated and listeners now take recommendations from algorithms. People care less for single genre charts and they are less likely to be influenced by single musical sources - out with the days of Radio DJs.
 
 This era of change has seen genre lose its ability to effectively categorise people’s musical taste. Consumers and artists are interested in so much more than adhering to one musical 'style'.
 

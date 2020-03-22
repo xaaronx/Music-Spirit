@@ -81,7 +81,7 @@ A subjective analysis of the clusters shows some artists and albums grouped in a
 
 My own subjective description of the clusters (based on the features found in each) matched well with the woman/man-made descriptors found most commonly in each cluster (gathered from rateyourmusic.com). The clustering analysis identifed nuances in sound features that humans have also identified. The final names/descriptions of the clusters are formed with both my interpretation of the features and the common descriptors found in each. See the image at the foot of this document for the descriptors per cluster.
 
-![alt text](Cluster_Feature.png)
+![alt text](./project_images/Cluster_Feature.png)
 
 ### Future Direction:
 
@@ -94,7 +94,7 @@ My own subjective description of the clusters (based on the features found in ea
 
 ### Clusters Overview:
 
-![alt text](Updated_cluster_language.png)
+![alt text](./project_images/Updated_cluster_language.png)
 
 ## Working Definitions:
 

@@ -19,6 +19,8 @@ Explore the results here:
 
 https://public.tableau.com/profile/aaron.b.w#!/vizhome/Capstone_ClustersV2/SongDashboard
 
+*In case the above link isn't functional, please explore a video demo in "project images" saved as "spirits_visualised.mp4"*
+
 ---
 
 ### Problem Statement:
